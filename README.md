@@ -1,5 +1,7 @@
 # DocChat - RAG Document Q&A
 
+**Live demo:** https://docchat-rag-eno1.onrender.com (free tier - first load after idle takes ~30-60s)
+
 Upload PDFs, then ask questions and get answers **grounded in the documents**, with page-level citations. Built to demonstrate a production-style Retrieval-Augmented Generation pipeline: FastAPI backend, LangChain-style chunking, ChromaDB vector store, Gemini embeddings + generation, and a Streamlit chat UI.
 
 ![Architecture](docs/architecture.md)
