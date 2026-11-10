@@ -12,7 +12,7 @@ import os
 
 
 class GeminiEmbedder:
-    def __init__(self, api_key: str | None = None, model: str = "models/text-embedding-004"):
+    def __init__(self, api_key: str | None = None, model: str = "models/gemini-embedding-001"):
         import google.generativeai as genai  # lazy: heavy, only needed at runtime
 
         key = api_key or os.environ.get("GEMINI_API_KEY")
